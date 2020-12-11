@@ -9,7 +9,7 @@ class Drops{
     display(){
         var pos =this.body.position;
         
-        fill("purple");
+        fill("blue");
         
         ellipseMode (RADIUS);
         ellipse (pos.x, pos.y,5,5 );
