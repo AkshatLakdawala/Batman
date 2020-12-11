@@ -3,7 +3,7 @@ class Drops{
         var options={
             friction:0.1
         }
-        this.body=Bodies.circle(x,y,5,options);
+        this.body=Bodies.circle(x,y,2,options);
         World.add(world, this.body);
     }
     display(){
@@ -12,7 +12,7 @@ class Drops{
         fill("blue");
         
         ellipseMode (RADIUS);
-        ellipse (pos.x, pos.y,5,5 );
+        ellipse (pos.x, pos.y,2,2 );
 
     }
 
